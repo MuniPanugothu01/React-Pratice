@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import { AuthProvider, useAuth } from "./AuthContext";
 import Navbar from "./Navbar";
 import Home from "./Home";
@@ -11,11 +16,25 @@ import State from "./UseState/state";
 
 function App() {
   return (
-
     <>
-
       <State />
+
+    <p/>
+
     </>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     // <AuthProvider>
@@ -40,9 +59,9 @@ function App() {
 }
 
 // Component to handle protected routes
-const ProtectedRoute = ({ children }) => {
-  const { isAuthenticated } = useAuth();
-  return isAuthenticated ? children : <Navigate to="/login" />;
-};
+// const ProtectedRoute = ({ children }) => {
+//   const { isAuthenticated } = useAuth();
+//   return isAuthenticated ? children : <Navigate to="/login" />;
+// };
 
 export default App;
