@@ -1,8 +1,11 @@
 import React from "react";
 
 const Props = () => {
-  return;
-  <></>;
+  return(
+    <>
+    
+    </>
+  )
 };
 
 export default Props;
