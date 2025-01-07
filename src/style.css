@@ -1,0 +1,40 @@
+/* nav {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.disabled-link {
+    pointer-events: none;
+    color: gray;
+}
+
+nav button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+nav button:hover {
+    background-color: #0056b3;
+}
+
+nav button:active {
+    background-color: #004085;
+} */
