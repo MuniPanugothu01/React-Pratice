@@ -13,13 +13,14 @@ import ContactUs from "./ContactUs";
 import Login from "./Login";
 import Register from "./Register";
 import State from "./UseState/state";
+import UseState from "./Pratice_Scratch/UseState";
 
 function App() {
   return (
     <>
-      <State />
+      {/* <State /> */}
 
-    <p/>
+    <UseState/>
 
     </>
 
